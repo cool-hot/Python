@@ -1,0 +1,25 @@
+def plus(a, b):
+  return a+b
+def minus(a, b):
+  return a-b
+def times(a, b):
+  return a*b
+def division(a, b):
+  return a/b
+def negation(a, b):
+  return -a,-b
+def power(a, b):
+  return a**b
+def reminder(a, b):
+  return a%b
+
+a = int(input("숫자만 입력하세요. a값 >"))
+b = int(input("숫자만 입력하세요. b값 >"))
+
+print("plus = ", plus(a, b))
+print("minus = ", minus(a, b))
+print("times = ", times(a, b))
+print("division = ", division(a, b))
+print("reminder = ", negation(a, b))
+print("negation = ", power(a, b))
+print("power = ", reminder(a, b))
