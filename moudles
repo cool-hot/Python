@@ -1,0 +1,12 @@
+import math
+
+print(math.ceil(1.2))
+print(math.fabs(-1.2))
+
+from math import ceil, fsum
+
+print(ceil(1.2))
+print(fsum([1,2,3,4,5,6,7,]))
+
+from math import fsum as star
+print(star([1,2,3,4,5,6,7,]))
