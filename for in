@@ -1,0 +1,10 @@
+days = ("Mon","Tue","Wed","Thu","Fri")
+
+for X in days:
+  print(X)
+  
+for day in days:
+  if day is "Wed":
+    break
+  else:
+    print(day)
