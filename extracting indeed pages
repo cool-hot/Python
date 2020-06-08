@@ -1,0 +1,11 @@
+import requests
+
+indeed_result = requests.get("https://www.indeed.com/advanced_search?q=python&limit=50")
+
+print(indeed_result.text)
+
+//1. 왼쪽 메뉴 패키지에서 requests 선택 후 python http for human 선택
+ 2. url 입력 후 print(indeed_result)
+ 3. Beautiful Soup 사이트 검색 후 BeautifulSoup4 복사
+ 4. 패키지에 BeautifulSoup4 검색하여 추가
+ 5. print(indeed_result.text) 실행
