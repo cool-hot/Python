@@ -1,0 +1,14 @@
+from calculator import plus, minus
+
+print(plus(1, 2), minus(1, 2))
+
+//calculator.py 이름으로 저장(아래 코드)
+def plus(a, b):
+  return a + b
+  
+  
+
+
+def minus(a, b):
+  return a - b
+  
